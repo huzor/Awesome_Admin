@@ -1,1 +1,0 @@
- curl -kv https://<ip>:<port>
