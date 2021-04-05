@@ -1,0 +1,15 @@
+* Check current version of splunkforwarder installed 
+	--> If necessary download latest version 
+
+* Move splunkforwarder tarball file from bdc ---> lmdc --> host
+
+* Stop splunkfowarder using cmd (./splunk stop) in /opt/splunkforwader/bin  
+
+* Place tarball in /opt and extract it. It will overwrite over existing splunkforwarder directory 
+
+* Start splunkfowarder using cmd (./splunk start) in /opt/splunkforwader/bin
+
+* Add username and passwd 
+
+* Check if forwarder is on using this cmd : ps ef | grep splunkd 
+

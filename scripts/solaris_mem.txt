@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function mem_info() {
+	prtdiag | grep -i memory
+	vmstat 2
+	 
+}
+
+mem_info
+

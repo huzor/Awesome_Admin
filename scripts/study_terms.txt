@@ -1,0 +1,15 @@
+Whats the diff between val and mgmt 
+
+hyper threadding
+LUN
+iops
+VMware datastores 
+vmdk, vmsn, vmx file extension
+snapshot
+quiesce file system in Vmware
+
+Thick / thin hard drive 
+
+vMotion 
+
+  
