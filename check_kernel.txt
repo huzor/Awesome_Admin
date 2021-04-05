@@ -1,0 +1,1 @@
+for server in $(cat server_list); do echo $server;ssh $server;uname -r; done

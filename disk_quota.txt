@@ -1,0 +1,3 @@
+If you get disk quota issue on solaris run this command to expand the mountpoint just enough to delete your files 
+
+* zfs set quota=45g rpool/var_audit
