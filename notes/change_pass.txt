@@ -1,0 +1,3 @@
+passwd -USER
+
+If user locked out, then do passwd -u USER
