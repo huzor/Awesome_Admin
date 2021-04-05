@@ -1,17 +1,18 @@
 #!/bin/bash
 
+# Pair this script with with start_capture.sh
+
 today=$(date +"%Y-%m-%d")
-PID=$(pgrep -n packet_cap)
-echo 'The PID of packet_cap is' "$PID"
+PID=$(pgrep -n start_capture)
+echo 'The PID of start_capture is' "$PID"
 echo 'Killing Process now'
 kill -15 "$PID"
 
-SERVICE="packet_cap.sh"
+SERVICE="start_capture.sh"
 if pgrep -x "$SERVICE" >/dev/null
 then
     echo "$SERVICE is running"
 else
     echo "$SERVICE stopped"
-#    tcpdump -tttt -r /root/captureLog.pcap >> /root/readable_captureLog.txt
     tcpdump -tttt -r /root/capturedLog_${today}.pcap >> /root/readableLog_${today}.txt
 fi
