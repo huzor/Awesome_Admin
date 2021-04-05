@@ -1,3 +1,0 @@
-du -sh --> dir summary size 
-
-du -d1 -h --> first level individual dir size 
