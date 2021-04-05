@@ -1,0 +1,1 @@
+When you can't winscp file to or from server check server permission, and check if your user is in the group that can access the file. 
