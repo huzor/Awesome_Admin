@@ -17,7 +17,4 @@ echo "The System-MacAddress=$mc"
 bt=`isainfo -kv`
 echo "The System- kernel-type=$bt"
 
-
-
-
 arp -a | grep "net204000 e51s003m" | awk '{ print $5 }'
