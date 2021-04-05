@@ -5,4 +5,5 @@ function connect_to() {
 perl -MIO::Socket -e '$socket=IO::Socket::INET->new(Proto=>tcp,PeerAddr=>$ARGV[0],PeerPort=>$ARGV[1],Timeout=>5);if($@){ printf("%s to port %s at %s\n", $@, $ARGV[1], $ARGV[0]) } else { printf("Connection to port %s at %s Succeeded\n", $ARGV[1], $ARGV[0]); }' $1 $2
 }
 
+# $1 is host; $2 is port 
 connect_to $1  $2
