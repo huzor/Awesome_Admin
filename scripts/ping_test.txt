@@ -1,0 +1,9 @@
+#!/bin/bash
+
+list=/home/statmon/host_list
+for server in $(cat $list);
+
+do
+        ping $server -c 2 >> ping_status
+#       echo $server
+done

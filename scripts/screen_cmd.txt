@@ -1,0 +1,5 @@
+ctrl A + D to Detach
+screen -ls to list screen 
+screen -r ro reattach
+Ctrl D to kill screen 
+screen -S <name of screen> 

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Script used to capture packets on this host
+
+today=$(date +"%Y-%m-%d")
+tcpdump -XX -w /root/capturedLog_${today}.pcap -i ens161 -v dst 10.244.143.168 
+#tcpdump -tttt -r /root/capturedLog_${today}.pcap >> /root/readableLog_${today}.txt
