@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pair this script with with start_capture.sh
+# Pair this script with with start_capture.sh. {Still in Development}
 
 today=$(date +"%Y-%m-%d")
 PID=$(pgrep -n start_capture)
