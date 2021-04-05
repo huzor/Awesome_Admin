@@ -1,2 +1,2 @@
 # SysAdmin_BashScripts
-Collection of Bash Scripts to administer Rhel7 and Solaris
+Collection of Bash Scripts and notes to administer Rhel7 and Solaris
