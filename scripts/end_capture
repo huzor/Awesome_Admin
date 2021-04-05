@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Pair this script with with start_capture.sh. {Still in Development}
+# Use this script with with start_capture.sh. Could be paired with Cron Job to automiatically terminate running 
+# process and create pcap file of packet info. 
+# {Still in Development}
 
 today=$(date +"%Y-%m-%d")
 PID=$(pgrep -n start_capture)
