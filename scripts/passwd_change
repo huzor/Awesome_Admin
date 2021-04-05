@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+list=$1
+for server in $(cat $list);
+
+do
+        echo $server
+        ssh statmon@$server -q 'sudo echo -e "{The passwd that you want to set}" |passwd {user of passwd}'
+        echo "Passwd has been assigned"
+
+done
