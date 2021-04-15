@@ -1,0 +1,11 @@
+#!/bin/bash
+# Use usermod if you want to add user to another group
+
+list=$
+for server in $(cat $list);
+
+do
+        echo $server
+        ssh statmon@$server -q "sudo useradd -g <user grp> -u <UID> <user>"
+
+done
