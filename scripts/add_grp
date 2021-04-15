@@ -1,0 +1,9 @@
+#!/bin/bash
+
+list=$
+for server in $(cat $list);
+
+do
+        echo $server
+        ssh statmon@$server -q "sudo groupadd -g <grpid> <grp>;getent group | grep <grp>"
+done
