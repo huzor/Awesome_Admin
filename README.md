@@ -1,5 +1,5 @@
 # Awesome_Admin
-Welcome to my Awesome Admin repo. Here you'll find a collection of Bash Shell Scripts and notes to administer Rhel7 and Solaris hosts. 
+Welcome to my Awesome Admin repo. Here you'll find a collection of Bash Shell Scripts and notes to administer Rhel7 and Solaris11 hosts. 
 
 ENJOY !!!
 
