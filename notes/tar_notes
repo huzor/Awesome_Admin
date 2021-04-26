@@ -1,0 +1,9 @@
+# tar -cvf tecmint-14-09-12.tar /home/tecmint/ --> create archive
+# tar -cvzf MyImages-14-09-12.tar.gz /home/MyImages --> create archive with gzip
+# tar -cvfj Phpfiles-org.tar.bz2 /home/php --> crate archive with bzip (more compression)
+# tar -xvf public_html-14-09-12.tar -C /home/public_html/videos/ --> untar to specific dir1/
+# tar -tvf uploadprogress.tar --> list content
+# tar -xvf cleanfiles.sh.tar cleanfiles.sh --> untar single file
+# tar -tvfW tecmint-14-09-12.tar --> verify tar
+# tar -zcvf optbackup-$(date +%Y-%m-%d).tgz /opt/ --> scheduled backup with tar
+# tar --exclude='./folder' --exclude='./upload/folder2' -zcvf /backup/filename.tgz .
