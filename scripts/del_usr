@@ -5,5 +5,5 @@ for server in $(cat $list);
 
 do
         echo $server
-        ssh statmon@$server -q "sudo userdel -r cmsd6"
+        ssh statmon@$server -q "sudo userdel -r <usrid>"
 done
