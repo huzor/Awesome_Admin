@@ -3,5 +3,5 @@
 #Script used to capture packets on host
 
 today=$(date +"%Y-%m-%d")
-tcpdump -XX -w /root/capturedLog_${today}.pcap -i ens161 -v dst {destination host IP} 
+tcpdump -XX -w /root/capturedLog_${today}.pcap -i <nic card> -v dst <destination host IP> 
 
