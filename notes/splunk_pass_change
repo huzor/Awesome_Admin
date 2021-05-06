@@ -1,0 +1,7 @@
+If you want to change passwd on splunk host you'll have to change it within user-seed.conf file for example: 
+
+#!/bin/bash
+
+[user_info]
+USERNAME=admin
+PASSWORD=Iwi11m@nageSplunk
